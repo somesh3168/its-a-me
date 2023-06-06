@@ -1,0 +1,20 @@
+.navbar {
+    color: rgb(92, 94, 94);
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar span {
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.no-link a {
+    text-decoration: none;
+    color: unset;
+}
