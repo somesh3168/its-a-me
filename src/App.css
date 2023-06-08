@@ -10,9 +10,13 @@
     display: grid;
     grid-template-columns: auto auto;
     .card {
-      border: 1px solid rgb(96, 185, 236);
+      /* border: 1px solid rgb(96, 185, 236); */
+      /* border: 1px solid rgb(228 240 247); */
       padding: 1rem;
       margin: 1rem;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 4px 30px rgb(0 0 0 / 16%);
+      border-radius: 1.5rem;
     }
     .card h3 {
       color: var(--header-color);
