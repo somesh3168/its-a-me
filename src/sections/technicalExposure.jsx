@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import 'material-icons/iconfont/material-icons.css';
 
 
@@ -12,43 +12,33 @@ function getStarsOutOfFive(num) {
 
 
 export default function TechnicalExposure() {
-  const [open, setOpen] = useState(true)
   return (
     <div div className="card">
       <h3>TECHNICAL EXPOSURE</h3>
       <ul className='exp-list no-link'>
         <li>
-          <a onClick={() => { setOpen(!open) }}><b>Python</b></a>
-          {!!open && <div className="show-box">
-
+          <b>Python</b>
             <p><small>JULY 2022 - PRESENT</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(4) }}></small>
             </p>
-          </div>}
         </li>
         <li>
-          <a onClick={() => { setOpen(!open) }}><b>React JS</b></a>
-          {!!open && <div className="show-box">
+          <b>React JS</b>
             <p><small>JULY 2022 - PRESENT</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(3) }}></small>
             </p>
-          </div>}
         </li>
         <li>
-          <a onClick={() => { setOpen(!open) }}><b>Linux</b></a>
-          {!!open && <div className="show-box">
+          <b>Linux</b>
             <p><small>JULY 2022 - PRESENT</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(3) }}></small>
             </p>
-          </div>}
         </li>
         <li>
-          <a onClick={() => { setOpen(!open) }}><b>Docker</b></a>
-          {!!open && <div className="show-box">
+          <b>Docker</b>
             <p><small>JULY 2022 - PRESENT</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(2) }}></small>
             </p>
-          </div>}
         </li>
       </ul>
     </div>
