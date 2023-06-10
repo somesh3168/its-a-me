@@ -18,25 +18,25 @@ export default function TechnicalExposure() {
       <ul className='exp-list no-link'>
         <li>
           <b>Python</b>
-            <p><small>JULY 2022 - PRESENT</small><br />
+            <p><small>Backend scripting, Automation</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(4) }}></small>
             </p>
         </li>
         <li>
           <b>React JS</b>
-            <p><small>JULY 2022 - PRESENT</small><br />
+            <p><small>Frontend components</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(3) }}></small>
             </p>
         </li>
         <li>
           <b>Linux</b>
-            <p><small>JULY 2022 - PRESENT</small><br />
+            <p><small>Shell scripting</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(3) }}></small>
             </p>
         </li>
         <li>
           <b>Docker</b>
-            <p><small>JULY 2022 - PRESENT</small><br />
+            <p><small>Containerization of Apps</small><br />
               <small dangerouslySetInnerHTML={{ __html: getStarsOutOfFive(2) }}></small>
             </p>
         </li>
