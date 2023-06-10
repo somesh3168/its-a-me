@@ -5,7 +5,7 @@
 }
 
 .exp-list li {
-    margin: 1rem;
+    margin: 0 1rem;
 }
 
 .exp-list li p {
@@ -34,34 +34,52 @@
     width: 0px;
 }
 
-.transform {
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    transition: all 2s ease;
+.exp-list.exp li {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-right: 0 !important;
 }
 
-@-webkit-keyframes SHOW-BOX {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
+.exp-list.exp li p {
+    margin-left: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-@-moz-keyframes SHOW-BOX {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-}
-@-o-keyframes SHOW-BOX {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
-}
-@keyframes SHOW-BOX {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
+.exp-list li:hover, .exp-list li:active{
+    /* height:300px; */
+  }
+
+.companyImg {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0;
+    margin-right: 0.6rem;
+    margin-bottom: 0;
+    margin-left: -1rem;
 }
 
-.show-box {
-    -webkit-animation: SHOW-BOX 2s ease-in-out;
-    -moz-animation: SHOW-BOX 2s ease-in-out;
-    -o-animation: SHOW-BOX 2s ease-in-out;
-    animation: SHOW-BOX 2s ease-in-out;
+.timeTag {
+    color: white;
+    background-color: #787c7f;
+    padding: 1px 0.2rem;
+    border-radius: 1rem;
+    font-size: .65rem;
+    margin: 0px 0.3rem;
+    font-style: oblique;
+    cursor: default;
+    display: flex;
+    align-items: center;
+}
+
+.hourglass {
+    font-size: 1rem;
+    cursor: pointer;
+}
+cite {
+    font-size: .75rem;
 }
