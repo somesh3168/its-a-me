@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/its-a-me/static/css/main.3bd13fdb.css",
-    "main.js": "/its-a-me/static/js/main.215592a5.js",
+    "main.css": "/its-a-me/static/css/main.6a35e631.css",
+    "main.js": "/its-a-me/static/js/main.3e136a84.js",
     "static/js/787.dc9ee2bf.chunk.js": "/its-a-me/static/js/787.dc9ee2bf.chunk.js",
     "static/media/material-icons-two-tone.woff": "/its-a-me/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
+    "static/media/infy.png": "/its-a-me/static/media/infy.6aedbd9b375ec66ed3ed.png",
     "static/media/material-icons-two-tone.woff2": "/its-a-me/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
     "static/media/material-icons-round.woff": "/its-a-me/static/media/material-icons-round.5d681e2edae8c60630db.woff",
     "static/media/material-icons-outlined.woff": "/its-a-me/static/media/material-icons-outlined.f882956fd323fd322f31.woff",
@@ -13,17 +14,20 @@
     "static/media/material-icons-outlined.woff2": "/its-a-me/static/media/material-icons-outlined.6f420cf17cc0d7676fad.woff2",
     "static/media/material-icons-sharp.woff2": "/its-a-me/static/media/material-icons-sharp.219aa9140e099e6c72ed.woff2",
     "static/media/material-icons.woff2": "/its-a-me/static/media/material-icons.0c35d18bf06992036b69.woff2",
+    "static/media/dhiyo.png": "/its-a-me/static/media/dhiyo.4e23e34b6caed4a47706.png",
+    "static/media/sbi.png": "/its-a-me/static/media/sbi.a339109212faf0aef4a9.png",
+    "static/media/mb.png": "/its-a-me/static/media/mb.1d740bc752a03a925db3.png",
     "static/media/whatsapp.svg": "/its-a-me/static/media/whatsapp.cd4c2e46fec38730ad99a91218d81f0a.svg",
     "static/media/github.svg": "/its-a-me/static/media/github.9273a4dfa79aa516e3bc64a03d0127fd.svg",
     "static/media/stack-overflow.svg": "/its-a-me/static/media/stack-overflow.9a84214c1e6804f4fc4dc821da7bb922.svg",
     "index.html": "/its-a-me/index.html",
     "static/media/linkedin_icon.svg": "/its-a-me/static/media/linkedin_icon.c4c3e524f74944e33558608f991503ef.svg",
-    "main.3bd13fdb.css.map": "/its-a-me/static/css/main.3bd13fdb.css.map",
-    "main.215592a5.js.map": "/its-a-me/static/js/main.215592a5.js.map",
+    "main.6a35e631.css.map": "/its-a-me/static/css/main.6a35e631.css.map",
+    "main.3e136a84.js.map": "/its-a-me/static/js/main.3e136a84.js.map",
     "787.dc9ee2bf.chunk.js.map": "/its-a-me/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bd13fdb.css",
-    "static/js/main.215592a5.js"
+    "static/css/main.6a35e631.css",
+    "static/js/main.3e136a84.js"
   ]
 }
