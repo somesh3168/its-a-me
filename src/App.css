@@ -17,6 +17,8 @@
       box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
       box-shadow: 0px 4px 30px rgb(0 0 0 / 16%);
       border-radius: 1.5rem;
+      min-width: 19rem;
+      max-width: 21rem;
     }
     .card h3 {
       color: var(--header-color);
@@ -49,10 +51,25 @@ and (max-width: 1040px) {
     /* background-color: rgb(207, 201, 201); */
   }
 }
+@media only screen
+and (min-width: 500px)
+and (max-width: 800px) {
 
+  .App {
+    .resume {
+      .card {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 800px) {
 
   .App {
+    .moreAbout > ul {
+      margin: 0;
+      }
     .resume {
       grid-template-columns: auto;
       width: 100%;
@@ -66,4 +83,15 @@ and (max-width: 1040px) {
     }
   }
   
+}
+@media only screen and (max-width: 500px) {
+  .App {
+    .resume {
+      .card {
+        /* margin-left: unset;
+        margin-right: unset;
+        margin: auto; */
+      }
+    }
+  }
 }

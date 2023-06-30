@@ -11,22 +11,25 @@
 .exp-list li p {
     margin-top: 0;
     color: #666666;
+    margin-bottom: 0.2rem;
 }
 .fill {
     font-size: 40px;
-    background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+    /* background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
     background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
-    background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
-    -webkit-background-clip: text;
+    background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%); */
+    /* -webkit-background-clip: text;
     -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
+    background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    color: #5b52529e;
+    text-shadow: 0px 0px 5px #80ad8b;
+    font-size: 1.3rem;
     
 }
 .fade {
     color: #9292925c;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .popup {
@@ -37,11 +40,9 @@
 .exp-list.exp li {
     text-align: left;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-right: 0 !important;
+    margin-bottom: 1rem;
 }
 
 .exp-list.exp li p {
@@ -53,6 +54,19 @@
 .exp-list li:hover, .exp-list li:active{
     /* height:300px; */
   }
+
+.compGlass {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nameGlass {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
 .companyImg {
     height: 2rem;
@@ -82,4 +96,31 @@
 }
 cite {
     font-size: .75rem;
+}
+
+.moreAbout {
+    color: darkslategrey;
+    height: 4.5rem;
+    /* height: max-content; */
+    overflow-y: hidden;
+    transition: height 1s ease-out;
+}
+.moreAbout > p {
+    background-color: aliceblue;
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 0.4rem;
+    margin: 1rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 16%);
+}
+.moreAbout > ul {
+    margin: 0 3rem;
+}
+.moreAbout > ul > li {
+    text-align: left;
 }
