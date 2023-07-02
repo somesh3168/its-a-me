@@ -18,3 +18,89 @@
     text-decoration: none;
     color: unset;
 }
+
+/* modal css */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    background: rgba(0, 0, 0, .5);
+    transition: all ease 1s;
+  }
+
+.closeoverlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    display: block;
+    z-index: 2;
+    position: fixed;
+    cursor: pointer;
+}
+
+.closebutton {
+    color: #ff8282;
+    text-decoration: none;
+    font-size: 1.5rem !important;
+    margin: 0 auto;
+    padding: .5rem 3.5rem;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal:target>.closeoverlay {
+    display: block;
+}
+
+.modal > div {
+    width: 31rem;
+    height: 36rem;
+    max-width: 23rem;
+    text-align: center;
+    position: relative;
+    background: #131418de;
+    z-index: 3;
+    border-radius: 1.2rem;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 16%);
+}
+
+.wrap,
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.modal-content {
+    overflow-y:auto
+}
+
+.modal-content > iframe {
+    height: 74%;
+    width: 97%;
+}
+
+
+.only-plugin-para {
+    color: rgb(152, 218, 152);
+    font-size: 20px;
+    display: block;
+}
+
+.closebutton:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.bg-download {
+    font-size: 3.9rem !important;
+}
