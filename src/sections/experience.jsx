@@ -69,7 +69,7 @@ export default function Experience() {
               <p>
                 <cite>Customer Assistant </cite>
               </p>
-              <small className='timeTag'><span className='material-icons hourglass'>hourglass_bottom</span>FEB 2017 - FEB 2019</small>
+              <small className='timeTag'><span className='material-icons hourglass'>hourglass_bottom</span>FEB 2017 - AUG 2018</small>
               </div>
             </li>
           </ul>

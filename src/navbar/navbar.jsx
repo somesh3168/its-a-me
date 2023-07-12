@@ -10,6 +10,7 @@ import { useState } from 'react';
 
 export default function Navbar() {
   const [pdfdrop, setPdfdrop] = useState(false);
+  const mysiteURL = 'https://somesh3168.github.io/its-a-me/';
   return (
     <div className="navbar">
         <span className="material-icons no-link" title=""><a href="tel:+91-7974904373" style={{textdecoration: 'none'}}>call</a></span>
@@ -29,7 +30,7 @@ export default function Navbar() {
           <div id={"ResumeView"} className="modal">
             <div className="modal-content">
               <a className="material-icons no-link closebutton" href={myResume} download="Somesh_Resume_2023">download</a>
-              <a className="material-icons no-link closebutton" href={'/'}>cancel</a>
+              <a className="material-icons no-link closebutton" href={mysiteURL}>cancel</a>
               <object data={myResume} type="application/pdf" width="100%" height="100%">
                 <p className='only-plugin-para'>Your web browser doesn't have a PDF plugin.
                   <iframe src={myResume} title="Resume" width="100%" />
@@ -43,7 +44,7 @@ export default function Navbar() {
                 >download_for_offline</a>
               </object>
             </div>
-            <a href={'/'} className="closeoverlay">_</a>
+            <a href={mysiteURL} className="closeoverlay">_</a>
           </div>
         </div>
     </div>
